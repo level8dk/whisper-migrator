@@ -1,0 +1,78 @@
+[
+  {
+    "pattern": "icinga2.#HOST.#IGNORE.#MEASUREMENTS.snmpv3-enhance.#IGNORE.#METRIC.#IGNORE",
+    "measurement": "#MEASUREMENTS",
+    "tags": [
+      {
+        "tagkey": "host",
+        "tagvalue": "#HOST"
+      },
+      {
+        "tagkey": "metric",
+        "tagvalue": "#METRIC"
+      },
+      {
+        "tagkey": "customer",
+        "tagvalue": "level8"
+      }
+    ],
+    "field": "value"
+  },
+  {
+    "pattern": "icinga2.#HOST.#IGNORE.#MEASUREMENTS.nwc_health.#IGNORE.#METRIC.#IGNORE",
+    "measurement": "#MEASUREMENTS",
+    "tags": [
+      {
+        "tagkey": "host",
+        "tagvalue": "#HOST"
+      },
+      {
+        "tagkey": "metric",
+        "tagvalue": "#METRIC"
+      },
+      {
+        "tagkey": "customer",
+        "tagvalue": "level8"
+      }
+    ],
+    "field": "value"
+  },
+  {
+    "pattern": "icinga2.#HOST.#IGNORE.#MEASUREMENTS.l8_snmp.#IGNORE.#METRIC.#IGNORE",
+    "measurement": "#MEASUREMENTS",
+    "tags": [
+      {
+        "tagkey": "host",
+        "tagvalue": "#HOST"
+      },
+      {
+        "tagkey": "metric",
+        "tagvalue": "#METRIC"
+      },
+      {
+        "tagkey": "customer",
+        "tagvalue": "level8"
+      }
+    ],
+    "field": "value"
+  },
+  {
+    "pattern": "icinga2.#HOST.#IGNORE.#MEASUREMENTS.#IGNORE.#METRIC.#IGNORE",
+    "measurement": "#MEASUREMENTS",
+    "tags": [
+      {
+        "tagkey": "host",
+        "tagvalue": "#HOST"
+      },
+      {
+        "tagkey": "metric",
+        "tagvalue": "#METRIC"
+      },
+      {
+        "tagkey": "customer",
+        "tagvalue": "level8"
+      }
+    ],
+    "field": "value"
+  }
+]
